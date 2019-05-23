@@ -1,1 +1,29 @@
-sample
+<html>
+<head>
+
+</head>
+
+<body>
+<p>Hevonen</p>
+<input id="field1">
+<input id="field2">
+<button onclick="calculate()">laske yhteen</button>
+<div id="tulos"></div>
+
+<script>
+function calculate(){
+var field1 = document.getElementById("field1").value;
+var field2 = document.getElementById("field2").value;
+var tulos = field1 * field2;
+document.getElementById("tulos").innerHTML = tulos;
+}
+
+</script>
+
+
+</body>
+
+
+
+
+</html>
